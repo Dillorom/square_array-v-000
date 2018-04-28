@@ -3,7 +3,7 @@ def square_array(array)
   counter = 0
   array.each do |num|
     new_array[counter] = num**2
-    cpunter+=1
+    counter+=1
   end
   new_array
 end
