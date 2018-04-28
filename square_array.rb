@@ -4,5 +4,6 @@ def square_array(array)
   array.each do |num|
     new_array[counter] = num**2
     cpunter+=1
-end
+  end
+  new_array
 end
